@@ -1,0 +1,728 @@
+{
+  "fe": [
+    {
+      "id": "fe-01",
+      "question": "¿Qué hizo Jesús al entrar en el templo y encontrar vendedores?",
+      "options": ["Se marchó", "Expulsó a quienes compraban y vendían", "Compró una ofrenda", "Pidió cerrar el templo"],
+      "correctIndex": 1
+    },
+    {
+      "id": "fe-02",
+      "question": "¿Cómo llamó Jesús al templo al citar las Escrituras?",
+      "options": ["Casa de oración", "Palacio del rey", "Mercado santo", "Escuela de escribas"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-03",
+      "question": "¿Qué contraste muestra la expulsión de los vendedores del templo?",
+      "options": ["Un lugar destinado a Dios estaba siendo utilizado para otros intereses", "El templo era demasiado pequeño", "Jesús quería prohibir todas las compras", "Los sacerdotes no podían entrar al templo"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-04",
+      "question": "¿Quiénes se acercaron a Jesús en el templo después de la expulsión de los vendedores?",
+      "options": ["Ciegos y cojos", "Soldados romanos", "Pescadores", "Recaudadores"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-05",
+      "question": "¿Qué diferencia se observa entre los vendedores expulsados y los enfermos que se acercaron después?",
+      "options": ["Unos utilizaban el templo para sus intereses y otros buscaban ayuda", "Unos eran romanos y otros judíos", "Unos conocían a Jesús y otros no", "No existe ninguna diferencia importante"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-06",
+      "question": "¿Qué reconocían los niños al gritar 'Hosanna al Hijo de David'?",
+      "options": ["Una identidad especial en Jesús", "Que Jesús era comerciante", "Que Jesús era sacerdote del templo", "Que Jesús pertenecía al ejército"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-07",
+      "question": "¿Qué encontró Jesús en la higuera junto al camino?",
+      "options": ["Solo hojas", "Muchos higos", "Uvas maduras", "Ramas secas"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-08",
+      "question": "¿Qué ocurrió con la higuera sin fruto después de que Jesús habló?",
+      "options": ["Floreció", "Se secó", "Fue trasplantada", "Dio fruto"],
+      "correctIndex": 1
+    },
+    {
+      "id": "fe-09",
+      "question": "¿Qué tienen en común la higuera sin fruto y la hipocresía denunciada por Jesús?",
+      "options": ["Ambas muestran apariencia sin verdadera transformación", "Ambas representan falta de conocimiento", "Ambas hablan de pobreza", "Ambas representan miedo al juicio"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-10",
+      "question": "Según Jesús, ¿qué debe acompañar a la oración para que no sea solamente una acción externa?",
+      "options": ["La fe", "La fama", "La riqueza", "El reconocimiento"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-11",
+      "question": "Cuando Jesús habla de una fe capaz de mover un monte, ¿qué está destacando principalmente?",
+      "options": ["La confianza sin dejarse dominar por la duda", "La fuerza física de los discípulos", "La necesidad de cambiar las montañas", "La importancia de conocer geografía"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-12",
+      "question": "¿Por qué los principales sacerdotes preguntaron con qué autoridad actuaba Jesús?",
+      "options": ["Porque sus acciones desafiaban su manera de entender la autoridad religiosa", "Porque querían nombrarlo rey", "Porque desconocían su lugar de nacimiento", "Porque querían saber cuánto dinero tenía"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-13",
+      "question": "En la parábola de los dos hijos, ¿cuál hizo finalmente la voluntad del padre?",
+      "options": ["El que dijo no y luego fue", "El que dijo sí y no fue", "Los dos por igual", "Ninguno"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-14",
+      "question": "En la parábola de los dos hijos, ¿qué diferencia esencial hay entre ellos?",
+      "options": ["Uno habló correctamente pero no actuó, y el otro terminó obedeciendo", "Uno conocía la ley y el otro no", "Uno era mayor que el otro", "Uno recibió más recompensa"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-15",
+      "question": "¿Por qué publicanos y prostitutas son presentados antes que algunos líderes religiosos?",
+      "options": ["Porque respondieron al llamado y cambiaron", "Porque conocían mejor la Ley", "Porque tenían mayor autoridad", "Porque eran más ricos"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-16",
+      "question": "En la parábola de los labradores malvados, ¿qué esperaba legítimamente recibir el dueño?",
+      "options": ["El fruto de su viña", "Una nueva casa", "Una corona", "Un ejército"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-17",
+      "question": "¿Qué demuestra la manera en que los labradores trataron a los enviados del dueño?",
+      "options": ["Rechazo repetido a rendir cuentas", "Deseo de trabajar mejor", "Confianza en el propietario", "Falta de conocimiento agrícola"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-18",
+      "question": "¿Por qué el envío del hijo del dueño hace más grave la actitud de los labradores?",
+      "options": ["Porque rechazaron incluso al heredero", "Porque el hijo tenía más dinero", "Porque el hijo era agricultor", "Porque el hijo conocía a los siervos"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-19",
+      "question": "¿Qué expresa la imagen de la piedra rechazada que llega a ser principal?",
+      "options": ["Que aquello que fue rechazado puede ocupar un lugar central", "Que las piedras más grandes siempre son mejores", "Que el templo debía reconstruirse", "Que los constructores cometieron un error técnico"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-20",
+      "question": "¿Por qué Jesús relaciona el Reino de Dios con producir frutos?",
+      "options": ["Porque recibir el Reino debe reflejarse en una vida transformada", "Porque todos debían trabajar en agricultura", "Porque el fruto era una forma de impuesto", "Porque solo los agricultores podían seguirlo"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-21",
+      "question": "¿Qué equilibrio expresa la respuesta de Jesús sobre el César?",
+      "options": ["Reconocer lo que corresponde a la autoridad humana sin quitar a Dios lo que le pertenece", "Rechazar toda autoridad", "Entregar todo al Estado", "No participar nunca en la sociedad"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-22",
+      "question": "¿Qué parte de la respuesta de Jesús impide reducir toda la vida solamente a obligaciones civiles?",
+      "options": ["Dar a Dios lo que es de Dios", "Dar al César todas las cosas", "Evitar cualquier impuesto", "Abandonar la vida pública"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-23",
+      "question": "¿Qué hace diferente al gran mandamiento de amar a Dios de un cumplimiento solamente externo?",
+      "options": ["Involucra corazón, alma y mente", "Solo exige asistir al templo", "Solo exige conocer las normas", "Solo exige obedecer por miedo"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-24",
+      "question": "¿Por qué el amor al prójimo está unido al amor a Dios?",
+      "options": ["Porque la fe también debe reflejarse en la relación con los demás", "Porque ambos mandamientos hablan de riqueza", "Porque solo se aplican dentro del templo", "Porque amar al prójimo sustituye amar a Dios"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-25",
+      "question": "¿Qué significa que la Ley y los Profetas dependan de los mandamientos del amor?",
+      "options": ["Que esos mandamientos resumen el sentido de muchas otras enseñanzas", "Que toda la Ley queda anulada", "Que solamente existen dos normas", "Que ya no importa ninguna acción"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-26",
+      "question": "¿Qué denunciaba Jesús principalmente al llamar hipócritas a ciertos líderes religiosos?",
+      "options": ["La distancia entre lo que mostraban y lo que realmente vivían", "Su falta de educación", "Su forma de vestir", "Su origen familiar"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-27",
+      "question": "¿Por qué hacer buenas obras solamente para ser visto contradice el mensaje de Jesús?",
+      "options": ["Porque convierte el bien en una búsqueda de apariencia", "Porque toda obra pública es mala", "Porque nadie debe ayudar en público", "Porque solamente importa pensar bien"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-28",
+      "question": "¿Qué revela buscar siempre los primeros lugares?",
+      "options": ["Deseo de reconocimiento y superioridad", "Mayor capacidad de servicio", "Más conocimiento de la Ley", "Mayor humildad"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-29",
+      "question": "¿Qué problema veía Jesús en buscar títulos y reconocimiento?",
+      "options": ["Poner la propia importancia por encima del servicio", "Usar palabras demasiado largas", "No conocer los nombres correctos", "Tener demasiados maestros"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-30",
+      "question": "Según Jesús, ¿qué cambia la idea habitual de quién es realmente grande?",
+      "options": ["El mayor es quien sirve", "El mayor es quien tiene más autoridad", "El mayor es quien habla más", "El mayor es quien tiene más seguidores"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-31",
+      "question": "¿Qué contraste expresa la frase 'el que se enaltece será humillado'?",
+      "options": ["La grandeza buscada por orgullo puede terminar en humillación", "Toda persona importante será castigada", "Nadie debe asumir responsabilidades", "La humildad significa sentirse inferior"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-32",
+      "question": "¿Qué sentido tiene que quien se humilla sea enaltecido?",
+      "options": ["Que la verdadera grandeza no nace de exaltarse a uno mismo", "Que todos deben ocultar sus capacidades", "Que nadie debe liderar", "Que solamente los pobres serán premiados"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-33",
+      "question": "¿Qué crítica expresa la imagen de algo limpio por fuera pero sucio por dentro?",
+      "options": ["Cuidar la apariencia externa mientras se descuida el interior", "La falta de limpieza física", "La mala organización del templo", "La falta de objetos religiosos"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-34",
+      "question": "¿Por qué la limpieza exterior no era suficiente en la crítica de Jesús?",
+      "options": ["Porque debía existir también una transformación interior", "Porque el exterior nunca importa", "Porque todos debían vestir igual", "Porque solo importaban las normas alimentarias"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-35",
+      "question": "¿Qué representa mejor la comparación con vasos limpios por fuera y sucios por dentro?",
+      "options": ["Una vida que cuida su imagen pero no su interior", "Una persona pobre", "Una persona que trabaja demasiado", "Una persona que no conoce las reglas"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-36",
+      "question": "¿Por qué Jesús menciona que se cuidaban pequeños detalles como la menta, el eneldo y el comino?",
+      "options": ["Para mostrar que podían cuidar detalles mientras descuidaban asuntos más importantes", "Porque esas plantas estaban prohibidas", "Porque eran demasiado costosas", "Porque no podían cultivarse"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-37",
+      "question": "¿Qué relación hay entre justicia, misericordia y fe frente a las prácticas externas?",
+      "options": ["Jesús las presenta como asuntos más importantes que no deben ser descuidados", "Jesús dice que las prácticas externas son siempre inútiles", "Jesús enseña que solo la fe importa", "Jesús prohíbe cumplir cualquier norma religiosa"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-38",
+      "question": "¿Qué denuncia la expresión 'colar un mosquito y tragarse un camello'?",
+      "options": ["Preocuparse por cosas pequeñas mientras se ignoran asuntos mucho mayores", "La importancia de la alimentación", "La necesidad de revisar la comida", "La prohibición de ciertos animales"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-39",
+      "question": "Cuando Jesús lamenta no haber podido reunir a Jerusalén bajo su cuidado, ¿qué muestra principalmente?",
+      "options": ["Un deseo de proteger y reunir a quienes lo rechazaban", "Deseo de abandonar definitivamente la ciudad", "Interés en convertirse en gobernante político", "Deseo de reconstruir los muros"],
+      "correctIndex": 0
+    },
+    {
+      "id": "fe-40",
+      "question": "¿Qué idea resume mejor la Puerta de la Fe?",
+      "options": ["La fe auténtica se reconoce cuando lo interior, las palabras y las acciones producen fruto", "Lo más importante es conocer todas las respuestas", "Una buena apariencia demuestra una buena vida", "La fe consiste únicamente en seguir reglas"],
+      "correctIndex": 0
+    }
+  ],
+  "vigilancia": [
+    {
+      "id": "vig-01",
+      "question": "Según Mateo 24, ¿quién conoce el día y la hora?",
+      "options": ["Los discípulos", "Los ángeles", "Solo el Padre", "Los sacerdotes"],
+      "correctIndex": 2
+    },
+    {
+      "id": "vig-02",
+      "question": "¿Por qué la incertidumbre sobre el momento conduce a la vigilancia y no simplemente al miedo?",
+      "options": ["Porque Jesús pide vivir preparados, no adivinar una fecha", "Porque el momento puede calcularse", "Porque nada llegará realmente", "Porque únicamente los ángeles deben preocuparse"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-03",
+      "question": "¿Qué elemento de los días de Noé utiliza Jesús para explicar la falta de preparación?",
+      "options": ["La vida seguía normalmente hasta que llegó inesperadamente el diluvio", "Todos conocían exactamente el día del diluvio", "Nadie realizaba actividades cotidianas", "Noé nunca avisó a nadie"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-04",
+      "question": "¿Qué problema había en que la gente comiera, bebiera y continuara su vida normalmente en los días de Noé?",
+      "options": ["No percibieron la importancia del momento que se acercaba", "Comer y beber estaban prohibidos", "Todos debían vivir dentro del arca", "La vida cotidiana era considerada mala"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-05",
+      "question": "¿Qué hace significativa la llegada del diluvio dentro de la comparación de Jesús?",
+      "options": ["Llegó cuando muchos seguían sin estar preparados", "Todos conocían la hora exacta", "No produjo ninguna consecuencia", "Noé tampoco estaba preparado"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-06",
+      "question": "¿Qué pretende transmitir la imagen de dos personas haciendo la misma actividad pero con resultados diferentes?",
+      "options": ["La vida puede parecer normal hasta el momento decisivo", "Trabajar en el campo es peligroso", "Solo una persona debe trabajar", "Todas las personas tendrán exactamente el mismo resultado"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-07",
+      "question": "¿Qué añade la imagen de las dos mujeres moliendo a la enseñanza de Mateo 24?",
+      "options": ["Que el momento decisivo puede llegar dentro de una actividad cotidiana", "Que moler grano es una actividad religiosa", "Que solamente las mujeres deben vigilar", "Que nadie debe trabajar de noche"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-08",
+      "question": "¿Por qué Jesús utiliza la imagen de un ladrón cuya hora de llegada se desconoce?",
+      "options": ["Para mostrar la necesidad de estar preparado antes de conocer el momento", "Para enseñar cómo proteger una casa", "Para decir que todos los ladrones llegan de noche", "Para indicar que los discípulos debían vigilar propiedades"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-09",
+      "question": "¿Qué problema habría en esperar una señal evidente para recién prepararse?",
+      "options": ["Que la venida puede ocurrir cuando menos se espera", "Que las señales nunca existen", "Que solo los discípulos pueden prepararse", "Que la preparación no tiene importancia"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-10",
+      "question": "¿Qué demuestra el siervo fiel al continuar dando alimento mientras su señor está ausente?",
+      "options": ["Que la vigilancia también consiste en cumplir la responsabilidad cotidiana", "Que debía conocer la fecha de regreso", "Que tenía miedo de sus compañeros", "Que no tenía otras tareas"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-11",
+      "question": "¿Por qué es importante que el señor encuentre al siervo trabajando cuando regresa?",
+      "options": ["Porque demuestra fidelidad incluso sin saber cuándo volvería", "Porque demuestra que nunca descansó", "Porque recibió una advertencia exacta", "Porque quería recibir más dinero"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-12",
+      "question": "¿Qué pensamiento provoca el cambio de conducta del siervo malo?",
+      "options": ["Creer que la demora de su señor le permite actuar sin responsabilidad", "Creer que debe trabajar mejor", "Creer que el señor llegará inmediatamente", "Creer que debe compartir sus bienes"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-13",
+      "question": "¿Qué revela el comportamiento del siervo malo durante la ausencia de su señor?",
+      "options": ["Cómo actúa cuando cree que no habrá consecuencias inmediatas", "Que desconocía sus obligaciones", "Que no tenía suficientes alimentos", "Que quería abandonar la casa"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-14",
+      "question": "¿Por qué la parábola presenta diez vírgenes que aparentemente comienzan de forma similar?",
+      "options": ["Para mostrar que la diferencia se descubre en la preparación", "Porque todas terminarán igual", "Porque todas olvidaron el aceite", "Porque ninguna conocía al esposo"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-15",
+      "question": "¿Qué distingue verdaderamente a las cinco prudentes de las cinco insensatas?",
+      "options": ["Haberse preparado para una espera más larga", "Tener lámparas diferentes", "Ser capaces de permanecer despiertas", "Conocer la hora de llegada"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-16",
+      "question": "¿Qué significado tiene que las prudentes llevaran aceite además de sus lámparas?",
+      "options": ["Su preparación no dependía de que el esposo llegara inmediatamente", "Querían vender el aceite", "Sus lámparas eran defectuosas", "Esperaban permanecer despiertas toda la noche"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-17",
+      "question": "¿Qué error de las insensatas se vuelve visible cuando la espera se alarga?",
+      "options": ["Su preparación era insuficiente", "No tenían ninguna lámpara", "No conocían el lugar de la boda", "No habían sido invitadas"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-18",
+      "question": "El hecho de que todas las vírgenes se durmieran muestra que la diferencia principal entre ellas no era...",
+      "options": ["Dormirse, sino haberse preparado antes", "Tener lámparas", "Conocer al esposo", "Llegar al mismo lugar"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-19",
+      "question": "¿Qué importancia tiene que el anuncio del esposo llegue a medianoche?",
+      "options": ["Refuerza el carácter inesperado del momento", "Demuestra que todas conocían la hora", "Indica que la boda debía comenzar siempre de noche", "Muestra que las prudentes nunca durmieron"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-20",
+      "question": "¿Por qué arreglar la lámpara en el último momento no resolvió el problema de las insensatas?",
+      "options": ["Porque les faltaba aquello que debían haber preparado con anticipación", "Porque las lámparas estaban rotas", "Porque el esposo prohibió usar lámparas", "Porque ya no podían encender fuego"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-21",
+      "question": "¿Qué revela que las insensatas pidieran aceite a las prudentes?",
+      "options": ["Intentaron resolver en el último momento una preparación que les correspondía realizar antes", "Las prudentes habían robado su aceite", "Ninguna llevaba suficiente aceite", "El esposo exigía una cantidad exacta"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-22",
+      "question": "¿Por qué las prudentes no simplemente entregaron todo su aceite a las demás?",
+      "options": ["Porque su preparación no podía reemplazar completamente la falta de preparación ajena", "Porque tenían prohibido compartir", "Porque no conocían a las otras jóvenes", "Porque el aceite no tenía valor"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-23",
+      "question": "¿Qué demuestra que las insensatas tuvieran que salir a comprar aceite?",
+      "options": ["Que intentaron prepararse cuando el momento decisivo ya había comenzado", "Que las prudentes llegaron tarde", "Que el esposo había cancelado la boda", "Que no podían utilizar sus lámparas"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-24",
+      "question": "¿Qué vuelve especialmente grave que el esposo llegue mientras ellas están comprando aceite?",
+      "options": ["La oportunidad llega mientras intentan corregir demasiado tarde su falta de preparación", "El mercado estaba cerrado", "Las prudentes habían salido también", "La boda comenzó antes de la hora acordada"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-25",
+      "question": "¿Qué permitió a las prudentes entrar cuando llegó el esposo?",
+      "options": ["Ya estaban preparadas cuando llegó el momento", "Conocían la hora exacta", "Tenían lámparas más bonitas", "Nunca se habían dormido"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-26",
+      "question": "¿Qué simboliza mejor que la puerta se cierre después de entrar las preparadas?",
+      "options": ["Existe un momento en el que la oportunidad ya no puede tratarse como indefinida", "Las bodas debían celebrarse en secreto", "El esposo no quería recibir invitados", "La puerta estaba dañada"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-27",
+      "question": "¿Qué revela el grito 'Señor, señor, ábrenos' de quienes quedaron afuera?",
+      "options": ["Reconocieron demasiado tarde la importancia de estar preparadas", "Nunca habían oído hablar del esposo", "No sabían dónde estaban", "Habían perdido sus lámparas"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-28",
+      "question": "¿Por qué la respuesta 'no las conozco' hace más seria la parábola?",
+      "options": ["Muestra que no basta llegar después si se dejó pasar el momento decisivo", "Indica que el esposo tenía mala memoria", "Muestra que la boda estaba reservada solo para familiares", "Demuestra que ninguna había sido invitada"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-29",
+      "question": "¿Qué significa 'velar' al final de la parábola?",
+      "options": ["Vivir preparados antes de saber cuándo llegará el momento", "No dormir nunca", "Mirar constantemente un reloj", "Calcular una fecha secreta"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-30",
+      "question": "¿Por qué desconocer el día y la hora aumenta la importancia de cómo se vive ahora?",
+      "options": ["Porque la preparación no puede dejarse para una fecha conocida", "Porque el futuro no importa", "Porque todo depende de una señal visible", "Porque solo algunos deben prepararse"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-31",
+      "question": "¿Qué tienen en común el ladrón inesperado, los días de Noé y la llegada del esposo?",
+      "options": ["El momento decisivo llega sin adaptarse a la comodidad de quienes esperan", "Todos ocurren exactamente a medianoche", "Todos permiten conocer la fecha", "Todos hablan de castigos físicos"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-32",
+      "question": "¿Qué error comete quien interpreta una demora como permiso para vivir sin responsabilidad?",
+      "options": ["Confunde paciencia con ausencia de consecuencias", "Se prepara demasiado", "Cumple su tarea antes de tiempo", "Ayuda demasiado a los demás"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-33",
+      "question": "Dentro de la parábola de las vírgenes, ¿qué representa mejor el aceite?",
+      "options": ["Una preparación que debe existir antes del momento decisivo", "Una recompensa recibida al final", "Una señal para calcular la hora", "Una forma de riqueza"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-34",
+      "question": "¿Cuál de estas situaciones se parece más a la actitud de las vírgenes prudentes?",
+      "options": ["Prepararse aunque todavía no exista una señal inmediata", "Esperar hasta que la puerta comience a cerrarse", "Depender de la preparación de otra persona", "Confiar en que siempre habrá más tiempo"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-35",
+      "question": "¿Qué aspecto de la preparación muestra la negativa a repartir todo el aceite?",
+      "options": ["Hay responsabilidades personales que otra persona no puede asumir completamente por nosotros", "Nunca se debe compartir", "Las prudentes eran egoístas", "El aceite era demasiado caro"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-36",
+      "question": "¿Por qué la medianoche funciona bien como imagen dentro de la parábola?",
+      "options": ["Porque expresa un momento inesperado y de poca visibilidad", "Porque las bodas siempre empezaban exactamente allí", "Porque nadie podía utilizar lámparas antes", "Porque todas conocían la hora"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-37",
+      "question": "¿Qué pone realmente a prueba la demora del esposo?",
+      "options": ["Si la preparación era verdadera y podía mantenerse en el tiempo", "La capacidad de permanecer despiertos sin dormir", "La cantidad de lámparas", "La rapidez para correr"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-38",
+      "question": "¿Qué relación existe entre vigilancia y responsabilidad en Mateo 24?",
+      "options": ["Estar preparado implica seguir cumpliendo lo que corresponde mientras se espera", "Vigilar significa dejar las responsabilidades", "Solo importa observar señales", "La responsabilidad termina cuando el señor tarda"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-39",
+      "question": "¿Qué hace más seria la consecuencia de quedar fuera después de cerrarse la puerta?",
+      "options": ["La falta de preparación ya no puede corregirse en ese momento", "La puerta era demasiado pesada", "Las prudentes no querían compartir", "La boda duraba muy poco"],
+      "correctIndex": 0
+    },
+    {
+      "id": "vig-40",
+      "question": "¿Qué idea resume mejor la Puerta de la Vigilancia?",
+      "options": ["La verdadera preparación ocurre antes de saber cuándo llegará el momento", "Vigilar significa descubrir la fecha exacta", "Prepararse consiste en tener miedo", "Siempre habrá una oportunidad después"],
+      "correctIndex": 0
+    }
+  ],
+  "obras": [
+    {
+      "id": "obr-01",
+      "question": "¿Qué significa que el señor confíe sus bienes a los servidores antes de marcharse?",
+      "options": ["Les entrega una responsabilidad durante su ausencia", "Renuncia definitivamente a sus bienes", "Les regala todo sin esperar nada", "Decide no regresar"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-02",
+      "question": "¿Qué muestra que los talentos fueran repartidos según la capacidad de cada uno?",
+      "options": ["No todos reciben lo mismo, pero todos reciben una responsabilidad", "Solo importa quién recibe más", "El tercer servidor no tenía ninguna responsabilidad", "Todos debían obtener exactamente el mismo resultado"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-03",
+      "question": "¿Por qué no sería correcto decir que el servidor de cinco talentos fue fiel únicamente porque recibió más?",
+      "options": ["Porque fue evaluado por lo que hizo con lo recibido", "Porque nunca utilizó los talentos", "Porque todos recibieron cinco", "Porque su señor no regresó"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-04",
+      "question": "¿Qué demuestra que el servidor de dos talentos reciba una aprobación semejante al de cinco?",
+      "options": ["La fidelidad importa más que comenzar con la misma cantidad", "Dos talentos valían más que cinco", "El señor olvidó las cantidades", "Todos terminaron con el mismo resultado"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-05",
+      "question": "¿Por qué el servidor de un talento no podía justificarse simplemente diciendo que había recibido menos?",
+      "options": ["Porque aun lo poco recibido implicaba una responsabilidad", "Porque en realidad había recibido cinco", "Porque debía quitar talentos a otros", "Porque solamente importaba tener dinero"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-06",
+      "question": "¿Qué revela que el servidor de cinco talentos obtuviera otros cinco?",
+      "options": ["Puso activamente en uso lo que había recibido", "Tuvo más suerte que los demás", "Recibió ayuda del señor", "Escondió una parte"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-07",
+      "question": "¿Qué tienen en común el servidor de cinco talentos y el de dos?",
+      "options": ["Ambos hicieron producir lo que se les había confiado", "Ambos comenzaron con la misma cantidad", "Ambos enterraron parte de los talentos", "Ambos tuvieron miedo"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-08",
+      "question": "¿Qué diferencia fundamental existe entre conservar un talento y enterrarlo por miedo?",
+      "options": ["El problema no fue conservarlo, sino dejarlo completamente improductivo", "Enterrarlo aumentaba su valor", "El señor había ordenado esconderlo", "No existía ninguna diferencia"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-09",
+      "question": "¿Qué comunica la frase 'sobre mucho te pondré'?",
+      "options": ["La fidelidad en una responsabilidad abre la posibilidad de recibir otras mayores", "Solo quien tiene dinero recibe recompensas", "El servidor dejará de trabajar", "Todos deben recibir exactamente lo mismo"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-10",
+      "question": "¿Por qué los dos primeros servidores son llamados buenos y fieles?",
+      "options": ["Porque respondieron activamente a la responsabilidad recibida", "Porque recibieron más dinero", "Porque nunca tuvieron miedo", "Porque conocían la fecha de regreso"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-11",
+      "question": "¿Qué relación existe entre fidelidad y 'entrar en el gozo de tu señor'?",
+      "options": ["La respuesta fiel conduce a participar de la alegría del señor", "El gozo era solamente un pago económico", "Todos recibieron esa invitación sin importar sus acciones", "El gozo reemplazaba los talentos"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-12",
+      "question": "¿Cuál fue el verdadero problema del servidor que enterró su talento?",
+      "options": ["Permitió que el miedo le impidiera hacer algo con lo recibido", "Había recibido menos que los demás", "No sabía cuánto valía el talento", "Su señor regresó demasiado pronto"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-13",
+      "question": "¿Por qué el señor menciona incluso la posibilidad de colocar el dinero con los banqueros?",
+      "options": ["Para mostrar que existían alternativas mejores que no hacer absolutamente nada", "Porque todos debían dedicarse a la banca", "Porque negociar estaba prohibido", "Porque quería recuperar exactamente un talento"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-14",
+      "question": "¿Qué expresa que el talento del siervo improductivo sea entregado a quien ya tenía diez?",
+      "options": ["La fidelidad y el uso responsable tienen consecuencias", "El señor solamente favorecía a los ricos", "Todos debían terminar con once talentos", "El tercer servidor nunca había recibido nada"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-15",
+      "question": "¿Cómo debe entenderse que a quien tiene se le dará más dentro de la parábola?",
+      "options": ["Quien responde fielmente a lo recibido demuestra capacidad para nuevas responsabilidades", "Toda persona rica debe hacerse más rica", "Los pobres nunca pueden recibir nada", "El dinero es el centro de la enseñanza"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-16",
+      "question": "¿Qué revela que incluso lo que tenía el siervo improductivo le sea quitado?",
+      "options": ["No usar lo recibido también tiene consecuencias", "El señor olvidó que le pertenecía", "El servidor había robado", "La cantidad inicial era incorrecta"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-17",
+      "question": "¿Qué demuestra que la parábola de los talentos no trata simplemente de quién recibió más?",
+      "options": ["El señor valora la fidelidad con lo recibido, no solo la cantidad inicial", "Todos terminaron con la misma cantidad", "Los talentos no tenían valor", "El servidor de un talento fue el más premiado"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-18",
+      "question": "¿Por qué la imagen del Hijo del Hombre sentado en gloria cambia el tono de Mateo 25?",
+      "options": ["Introduce el momento de evaluar cómo se vivió", "Comienza una nueva parábola sobre dinero", "Presenta solamente una ceremonia real", "Indica que ya no importan las acciones"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-19",
+      "question": "¿Qué sentido tiene la comparación del pastor que separa ovejas y cabritos?",
+      "options": ["Representa una distinción final basada en cómo se respondió en la vida", "Explica técnicas de ganadería", "Indica que los animales serán juzgados", "Muestra una competencia entre rebaños"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-20",
+      "question": "¿Qué simboliza que las ovejas sean colocadas a la derecha del Rey?",
+      "options": ["Son presentadas como quienes reciben aprobación", "Representan a quienes recibieron más talentos", "Son quienes llegaron primero", "Son quienes conocían más leyes"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-21",
+      "question": "¿Qué contraste busca mostrar la separación entre derecha e izquierda?",
+      "options": ["Dos respuestas diferentes frente al necesitado", "Dos nacionalidades", "Dos niveles económicos", "Dos formas de vestir"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-22",
+      "question": "¿Por qué los de la derecha son llamados benditos antes de mencionar una lista de acciones?",
+      "options": ["Porque sus obras revelan una manera concreta de responder al Rey", "Porque eran más ricos", "Porque conocían personalmente al Rey", "Porque nunca cometieron errores"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-23",
+      "question": "¿Qué diferencia existe entre recibir el Reino y simplemente obtener una recompensa material?",
+      "options": ["La escena presenta una participación definitiva en algo preparado por Dios", "El Reino es solamente una propiedad física", "El Reino consiste en recibir más talentos", "No existe ninguna diferencia"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-24",
+      "question": "¿Qué hace significativa la acción de dar de comer al hambriento en Mateo 25?",
+      "options": ["Un acto cotidiano de ayuda es presentado como servicio al propio Rey", "La comida era una obligación política", "Solo alimentar a ciertas personas tenía valor", "Era necesario organizar un banquete"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-25",
+      "question": "¿Qué tienen en común dar de beber, vestir, acoger y visitar?",
+      "options": ["Son respuestas concretas ante necesidades reales", "Son ceremonias religiosas", "Requieren mucho dinero", "Solo pueden realizarse dentro del templo"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-26",
+      "question": "¿Por qué recibir al forastero tiene un lugar importante en la escena del juicio?",
+      "options": ["Porque el trato dado a alguien vulnerable revela la actitud del corazón", "Porque todos los forasteros eran discípulos", "Porque viajar estaba prohibido", "Porque solo los extranjeros necesitaban ayuda"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-27",
+      "question": "¿Qué muestra la acción de vestir a quien lo necesita?",
+      "options": ["Que la compasión debe convertirse en una respuesta concreta", "Que la ropa determina la salvación", "Que todas las personas deben vestir igual", "Que solamente las posesiones tienen valor"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-28",
+      "question": "¿Qué distingue visitar al enfermo de simplemente saber que está enfermo?",
+      "options": ["La preocupación se transforma en presencia y acción", "No existe ninguna diferencia", "Visitarlo demuestra riqueza", "Solo los médicos pueden hacerlo"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-29",
+      "question": "¿Por qué incluir al encarcelado hace más exigente el mensaje?",
+      "options": ["El servicio alcanza incluso a personas que pueden ser ignoradas o rechazadas", "Porque todos los presos eran inocentes", "Porque visitar cárceles era obligatorio", "Porque el Rey estaba encarcelado físicamente"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-30",
+      "question": "¿Por qué los justos se sorprenden cuando el Rey dice que lo ayudaron a Él?",
+      "options": ["Porque no comprendían que servir al necesitado era servir también al Rey", "Porque habían olvidado completamente sus acciones", "Porque nunca habían ayudado a nadie", "Porque esperaban otra recompensa"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-31",
+      "question": "¿Qué importancia tiene que Jesús llame 'mis hermanos más pequeños' a quienes necesitan ayuda?",
+      "options": ["Relaciona directamente al Rey con quienes parecen menos importantes", "Indica que todos eran familiares de Jesús", "Significa que solamente los niños necesitan ayuda", "Se refiere únicamente a los discípulos más jóvenes"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-32",
+      "question": "¿Qué revela la pregunta '¿cuándo te vimos?' de los justos?",
+      "options": ["No hicieron el bien simplemente para obtener reconocimiento del Rey", "No recordaban a ninguna persona", "No habían realizado buenas obras", "No conocían al Rey"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-33",
+      "question": "¿Qué hace especialmente serio el reproche a quienes están a la izquierda?",
+      "options": ["Su omisión frente al necesitado también es tomada en cuenta", "Habían recibido menos talentos", "No conocían las parábolas", "No pertenecían a cierto grupo"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-34",
+      "question": "¿Qué diferencia hay entre no hacer daño y hacer el bien dentro de Mateo 25?",
+      "options": ["La escena también considera aquello bueno que se pudo hacer y no se hizo", "No existe ninguna diferencia", "Solo se juzgan acciones violentas", "Las omisiones nunca tienen consecuencias"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-35",
+      "question": "¿Por qué ignorar al forastero encaja con el problema de quienes están a la izquierda?",
+      "options": ["No reconocieron al Rey presente en la necesidad de otra persona", "No sabían de qué país venía", "Los extranjeros tenían prohibido entrar", "El Rey nunca habló de ellos"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-36",
+      "question": "¿Qué muestra que las acciones hacia el necesitado formen parte del juicio?",
+      "options": ["La fe y la forma de tratar a otros no aparecen separadas", "Solo las obras importan y nada más", "La riqueza determina el resultado", "El conocimiento bíblico no tiene ningún valor"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-37",
+      "question": "¿Qué relación profunda existe entre los talentos y el juicio final?",
+      "options": ["En ambos casos se evalúa qué hicimos concretamente con lo que tuvimos delante", "Ambos hablan principalmente de dinero", "Ambos muestran que es mejor evitar riesgos", "Ambos enseñan que todos reciben exactamente lo mismo"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-38",
+      "question": "¿Qué diferencia una buena obra auténtica de una obra hecha solamente para aparentar?",
+      "options": ["Busca responder al otro, no solamente mejorar la propia imagen", "Debe ser siempre secreta", "Tiene que costar mucho dinero", "Debe recibir una recompensa"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-39",
+      "question": "¿Qué conecta al servidor que enterró el talento con quienes ignoraron al necesitado?",
+      "options": ["En ambos casos hubo una oportunidad de actuar que quedó sin aprovechar", "Ambos habían recibido un solo talento", "Ambos desconocían al señor", "Ambos fueron engañados por otras personas"],
+      "correctIndex": 0
+    },
+    {
+      "id": "obr-40",
+      "question": "¿Qué idea resume mejor la Puerta de las Obras?",
+      "options": ["Lo recibido, la fe y la compasión deben convertirse en acciones concretas", "Basta con tener buenas intenciones", "Lo más importante es recibir más que los demás", "Solo las acciones extraordinarias tienen valor"],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+.landing, .host-page, .player-page {
+  align-items: center;
+  background: radial-gradient(circle at 50% 20%, #433118, #110e0a 68%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100svh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.eyebrow { color: #d7ae59; letter-spacing: .18em; text-transform: uppercase; }
+h1 { font-size: clamp(3rem, 11vw, 7rem); margin: .2em 0; }
+.talents-title { font-size: clamp(2rem, 7vw, 3.5rem); }
+.message, .instructions { font-size: clamp(1.1rem, 3vw, 1.8rem); font-style: italic; max-width: 38rem; }
+.connection { color: #c98b86; font-family: system-ui, sans-serif; font-size: .8rem; margin-top: 3rem; text-transform: uppercase; }
+.connection.online { color: #b7d58a; }
+button { background: #d7ae59; border: 0; border-radius: .25rem; color: #1d160b; cursor: pointer; font: 700 1rem system-ui, sans-serif; margin-top: 2rem; padding: .9rem 1.4rem; }
+button:disabled { cursor: not-allowed; opacity: .55; }
+.error { color: #ffb4ab; font-family: system-ui, sans-serif; max-width: 24rem; }
+.host-page { justify-content: flex-start; padding-top: 5vh; }
+.host-page h1 { letter-spacing: .12em; }
+.qr { background: #fff; border-radius: .6rem; margin: 1rem; max-width: min(280px, 80vw); padding: .5rem; }
+.count { color: #d7ae59; font-family: system-ui, sans-serif; font-size: 1.1rem; }
+.players { display: grid; gap: .4rem; list-style-position: inside; margin: .5rem 0; min-height: 5rem; padding: 0; width: min(24rem, 100%); }
+.players li { align-items: center; background: rgba(255, 255, 255, .08); border-left: 2px solid #d7ae59; display: flex; justify-content: space-between; padding: .5rem; text-align: left; }
+.players small { color: #d7ae59; font-family: system-ui, sans-serif; text-transform: uppercase; }
+.player-page form { display: grid; gap: .7rem; margin-top: 2rem; width: min(22rem, 100%); }
+label { font-family: system-ui, sans-serif; text-align: left; }
+input { border: 1px solid #d7ae59; border-radius: .25rem; font: 1.1rem system-ui, sans-serif; padding: .8rem; }
+.player-page button { margin-top: .5rem; }
+.question-page { justify-content: flex-start; padding-top: 10vh; }
+.question-page h1 { font-size: clamp(1.8rem, 7vw, 3rem); max-width: 46rem; }
+.options { display: grid; gap: .8rem; margin-top: 1.5rem; width: min(42rem, 100%); }
+.options button { margin: 0; text-align: left; }
+.faces { display: grid; gap: .8rem; grid-template-columns: repeat(2, minmax(0, 1fr)); width: min(30rem, 100%); }
+.memory-grid { gap: .35rem; grid-template-columns: repeat(5, minmax(0, 1fr)); width: min(32rem, 100%); }
+.memory-grid .face { font-size: clamp(1rem, 6vw, 2rem); }
+.memory-grid .true-face { margin: 0; padding: 0; }
+.face { align-items: center; aspect-ratio: 1; background: #31241a; color: #f9efd2; display: flex; justify-content: center; margin: 0; }
+.true-face { background: #d7ae59; color: #1d160b; font-family: system-ui, sans-serif; font-weight: 800; margin: 2rem; padding: 4rem 2rem; }
+.coin-count { color: #f9efd2; font-family: system-ui, sans-serif; font-size: 1.2rem; font-weight: 700; }
+.coin-count span { color: #d7ae59; font-size: 3rem; }
+.talent-button { background: radial-gradient(circle at 35% 30%, #fff1a5, #d7ae59 45%, #8a5b12); border: .45rem solid #f5d67f; border-radius: 50%; box-shadow: 0 .5rem 0 #603d0c, 0 .8rem 1.5rem #0008; color: #4d3007; font-family: Georgia, serif; font-size: 5rem; height: 12rem; margin-bottom: .5rem; width: 12rem; }
+.talent-button:active { box-shadow: 0 .15rem 0 #603d0c; transform: translateY(.35rem) scale(.97); }
+.talent-note { color: #d7ae59; font-family: system-ui, sans-serif; font-size: .8rem; }
+.timer { color: #d7ae59; font-family: system-ui, sans-serif; font-weight: 700; }
+.time-line { background: #ffffff2b; border-radius: 99px; height: .35rem; margin-bottom: 1rem; overflow: hidden; width: min(30rem, 100%); }
+.time-line span { background: #d7ae59; display: block; height: 100%; transition: width .8s linear; }
+.final ol { font-family: system-ui, sans-serif; line-height: 2; list-style-position: inside; padding: 0; }
+.final strong { color: #d7ae59; }

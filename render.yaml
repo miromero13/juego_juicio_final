@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: juego-juicio-final-server
+    runtime: node
+    rootDir: server
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start
+    healthCheckPath: /health
+    envVars:
+      - key: CLIENT_ORIGIN
+        sync: false
+      - key: GAME_DURATION_SECONDS
+        value: 300

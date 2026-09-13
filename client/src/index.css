@@ -1,0 +1,10 @@
+:root {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #f9efd2;
+  background: #110e0a;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
