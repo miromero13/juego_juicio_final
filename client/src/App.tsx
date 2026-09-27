@@ -21,14 +21,14 @@ type MaskState = { mode: 'preview' | 'choose' | 'result'; heartIndex: number; co
 const decoys = ['☁', '☂', '⚡', '☾', '✦', '♜', '♞', '☠', '⚑', '✕', '♠', '♣']
 
 const doorTitle: Record<Category, string> = {
-  fe: 'Puerta de la Fe',
-  vigilancia: 'Puerta de la Vigilancia',
-  obras: 'Puerta de las Obras',
+  fe: 'La semilla junto al camino',
+  vigilancia: 'La semilla entre pedregales',
+  obras: 'La semilla en buena tierra',
 }
 const doorMessage: Record<Category, { success: string; failure: string }> = {
-  fe: { success: 'Tu fe dio fruto.', failure: 'La apariencia no fue suficiente.' },
-  vigilancia: { success: 'Estabas preparado cuando llegó el momento.', failure: 'El momento llegó antes de que estuvieras preparado.' },
-  obras: { success: 'Tus acciones hablaron por ti.', failure: 'No bastaba saber qué hacer.' },
+  fe: { success: 'La palabra encontró un corazón dispuesto.', failure: 'Las distracciones apartaron la palabra del camino.' },
+  vigilancia: { success: 'Tu raíz se mantuvo firme ante la prueba.', failure: 'La semilla necesita echar raíces profundas.' },
+  obras: { success: 'La buena tierra dio fruto.', failure: 'La palabra está llamada a dar fruto.' },
 }
 
 const roomFromUrl = new URLSearchParams(window.location.search).get('join')?.toUpperCase() ?? ''
@@ -163,7 +163,7 @@ function App() {
     return room ? <PlayerLobby room={room} ranking={ranking} question={question} result={result} mask={mask} talents={talents} talentResult={talentResult} onAnswer={answerQuestion} onMask={chooseMask} onTalent={tapTalent} /> : (
       <main className="player-page">
         <p className="eyebrow">Sala {roomFromUrl}</p>
-        <h1>El Juicio Final</h1>
+        <h1>El sembrador</h1>
         <form onSubmit={joinRoom}>
           <label htmlFor="name">Tu nombre</label>
           <input id="name" value={name} onChange={(event) => setName(event.target.value)} maxLength={20} autoComplete="name" required />
@@ -178,9 +178,9 @@ function App() {
     <HostLobby room={room} ranking={ranking} qrCode={qrCode} error={error} onStart={startGame} />
   ) : (
     <main className="landing">
-      <p className="eyebrow">Mateo 21-25</p>
-      <h1>El Juicio Final</h1>
-      <p className="message">Velad, porque no sabéis el día ni la hora.</p>
+      <p className="eyebrow">Mateo 13 · La parábola del sembrador</p>
+      <h1>El sembrador</h1>
+      <p className="message">Una semilla, cuatro terrenos y una cosecha abundante.</p>
       <button onClick={createRoom} disabled={!connected}>Crear nueva sala</button>
       <p className={connected ? 'connection online' : 'connection'}>{connected ? 'Servidor conectado' : 'Conectando al servidor'}</p>
       {error && <p className="error">{error}</p>}
@@ -212,9 +212,9 @@ function HostLobby({ room, ranking, qrCode, error, onStart }: { room: Room; rank
 function PlayerLobby({ room, ranking, question, result, mask, talents, talentResult, onAnswer, onMask, onTalent }: { room: Room; ranking: Array<{ name: string; score: number }> | null; question: Question | null; result: QuestionResult | null; mask: MaskState | null; talents: { endsAt: number; taps: number } | null; talentResult: { talents: number } | null; onAnswer: (answerIndex: number) => void; onMask: (index: number) => void; onTalent: () => void }) {
   if (ranking) return <main className="player-page"><FinalScreen ranking={ranking} /></main>
   const timer = room.status === 'playing' ? <GameTimer endsAt={room.gameEndsAt} startedAt={room.gameStartedAt} lineOnly /> : null
-  if (mask) return <main className="player-page">{timer}<p className="eyebrow">Encuentra el Corazón</p><h1>{mask.mode === 'preview' ? 'ENCUENTRA EL CORAZÓN' : mask.mode === 'choose' ? '¿DÓNDE ESTABA EL CORAZÓN?' : mask.correct ? 'ENCONTRASTE EL CORAZÓN ❤️' : 'NO ENCONTRASTE EL CORAZÓN'}</h1><p className="message">{mask.mode === 'preview' ? 'Entre muchas apariencias, solo una muestra lo que realmente importa. Encuéntralo antes de que se acabe el tiempo.' : mask.mode === 'choose' ? 'Elige el cuadro donde estaba.' : mask.correct ? 'Supiste mirar más allá de las apariencias. “Porque donde está tu tesoro, allí estará también tu corazón.”' : 'Las apariencias te distrajeron. Lo importante no siempre es lo primero que vemos.'}</p>{mask.mode !== 'result' && <div className="faces memory-grid">{Array.from({ length: 25 }, (_, index) => <button key={index} className={`face ${mask.mode === 'preview' && index === mask.heartIndex ? 'true-face' : ''}`} disabled={mask.mode !== 'choose'} onClick={() => onMask(index)}>{mask.mode === 'preview' ? (index === mask.heartIndex ? '♥' : decoys[index % decoys.length]) : '?'}</button>)}</div>}</main>
-  if (talents) return <main className="player-page">{timer}<p className="eyebrow">Multiplica tus Talentos</p><h1 className="talents-title">Multiplica tus talentos</h1><p className="message">Tienes 10 segundos. Haz crecer lo que recibiste. Pulsa la moneda lo más rápido que puedas.</p><GameTimer endsAt={talents.endsAt} startedAt={talents.endsAt - 10_000} label="Talentos" /><div className="coin-count"><span>{talents.taps}</span> monedas</div><button className="talent-button" onClick={onTalent} aria-label="Sumar una moneda"><span>$</span></button></main>
-  if (talentResult) return <main className="player-page">{timer}<p className="eyebrow">Multiplica tus Talentos</p><h1>SE ACABÓ EL TIEMPO</h1><p className="message">Lo importante no fue cuánto recibiste, sino cuánto hiciste crecer.</p><p className="coin-count">Multiplicaste <span>{talentResult.talents}</span> talentos</p></main>
+  if (mask) return <main className="player-page">{timer}<p className="eyebrow">Recuerda dónde cayó la semilla</p><h1>{mask.mode === 'preview' ? 'OBSERVA LA SEMILLA' : mask.mode === 'choose' ? '¿DÓNDE CAYÓ LA SEMILLA?' : mask.correct ? '¡ENCONTRASTE LA SEMILLA! 🌱' : 'LA SEMILLA SE PERDIÓ'}</h1><p className="message">{mask.mode === 'preview' ? 'Mira con atención dónde cayó la semilla antes de que termine el tiempo.' : mask.mode === 'choose' ? 'Elige el terreno donde viste la semilla.' : mask.correct ? 'Recordaste dónde cayó la semilla. ¡Que eche raíces y dé fruto!' : 'No recordaste dónde cayó la semilla. Sigue atento a la enseñanza.'}</p>{mask.mode !== 'result' && <div className="faces memory-grid">{Array.from({ length: 25 }, (_, index) => <button key={index} className={`face ${mask.mode === 'preview' && index === mask.heartIndex ? 'true-face' : ''}`} disabled={mask.mode !== 'choose'} onClick={() => onMask(index)}>{mask.mode === 'preview' ? (index === mask.heartIndex ? '♥' : decoys[index % decoys.length]) : '?'}</button>)}</div>}</main>
+  if (talents) return <main className="player-page">{timer}<p className="eyebrow">Haz crecer la cosecha</p><h1 className="talents-title">¡Que la semilla dé fruto!</h1><p className="message">Tienes 10 segundos. Pulsa tan rápido como puedas para hacer crecer tu cosecha.</p><GameTimer endsAt={talents.endsAt} startedAt={talents.endsAt - 10_000} label="Cosecha" /><div className="coin-count"><span>{talents.taps}</span> frutos</div><button className="talent-button" onClick={onTalent} aria-label="Hacer crecer la cosecha"><span>$</span></button></main>
+  if (talentResult) return <main className="player-page">{timer}<p className="eyebrow">Fin de la cosecha</p><h1>TERMINÓ EL TIEMPO</h1><p className="message">La semilla que cae en buena tierra produce fruto en abundancia.</p><p className="coin-count">Cosechaste <span>{talentResult.talents}</span> frutos</p></main>
   if (question && !result) {
     return (
       <main className="player-page question-page">
@@ -236,7 +236,7 @@ function PlayerLobby({ room, ranking, question, result, mask, talents, talentRes
         <h1>{result.correct ? 'Respuesta correcta' : 'Respuesta incorrecta'}</h1>
         <p className="message">{result.correct ? doorMessage[result.category].success : doorMessage[result.category].failure}</p>
         <p className="connection online">Puntaje actual: {result.score}</p>
-        <p className="message">La siguiente prueba estará disponible en la próxima fase.</p>
+        <p className="message">La siguiente enseñanza comenzará en un momento.</p>
       </main>
     )
   }
@@ -246,7 +246,7 @@ function PlayerLobby({ room, ranking, question, result, mask, talents, talentRes
       {timer}
       <p className="eyebrow">Sala {room.code}</p>
       <h1>{room.status === 'playing' ? 'Preparando tu pregunta' : 'Estás dentro'}</h1>
-      <p className="message">{room.status === 'playing' ? 'Prepárate para comenzar tu recorrido.' : 'Espera a que el anfitrión inicie la partida.'}</p>
+      <p className="message">{room.status === 'playing' ? 'Prepárate para recibir la enseñanza.' : 'Espera a que el anfitrión comience la parábola.'}</p>
     </main>
   )
 }
@@ -254,7 +254,7 @@ function PlayerLobby({ room, ranking, question, result, mask, talents, talentRes
 export default App
 
 function FinalScreen({ ranking }: { ranking: Array<{ name: string; score: number }> }) {
-  return <section className="final"><p className="eyebrow">El Juicio Final</p><h1>{ranking[0]?.name}</h1><p className="message">Superaste el Juicio Final</p><ol>{ranking.map((player) => <li key={player.name}>{player.name} <strong>{player.score} pts</strong></li>)}</ol></section>
+  return <section className="final"><p className="eyebrow">El sembrador</p><h1>{ranking[0]?.name}</h1><p className="message">Completaste el recorrido del sembrador</p><ol>{ranking.map((player) => <li key={player.name}>{player.name} <strong>{player.score} pts</strong></li>)}</ol></section>
 }
 
 function GameTimer({ endsAt, startedAt, lineOnly = false, label = 'Tiempo restante' }: { endsAt?: number; startedAt?: number; lineOnly?: boolean; label?: string }) {
